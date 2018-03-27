@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.estacio.calculadora.CalcActivity">
+    <TextView
+        android:id="@+id/infoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoTextView"
+        android:enabled="false"
+        android:gravity="bottom"
+        android:lines="2"
+        android:maxLines="2"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonCe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText"
+            android:text="CE"
+            android:textSize="35sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonSeven"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText"
+            android:text="7"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/button9"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/dividir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textSize="35sp"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="164dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button4"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="35sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="225dp" />
+
+        <Button
+            android:id="@+id/button5"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="35sp"
+            tools:layout_editor_absoluteX="104dp"
+            tools:layout_editor_absoluteY="225dp" />
+
+        <Button
+            android:id="@+id/button6"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="35sp"
+            tools:layout_editor_absoluteX="192dp"
+            tools:layout_editor_absoluteY="225dp" />
+
+        <Button
+            android:id="@+id/mult"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:textSize="35sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="35sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <Button
+            android:id="@+id/button2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="35sp"
+            tools:layout_editor_absoluteX="104dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <Button
+            android:id="@+id/button3"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="35sp"
+            tools:layout_editor_absoluteX="192dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="35sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="35sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/buttonAdicao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="35sp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/buttoni"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="35sp" />
+
+
+</TableLayout>
